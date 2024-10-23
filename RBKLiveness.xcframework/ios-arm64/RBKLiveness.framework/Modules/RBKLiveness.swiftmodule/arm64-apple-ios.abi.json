@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "RBKLiveness",
+    "printedName": "RBKLiveness",
     "children": [
       {
         "kind": "TypeDecl",
@@ -257,6 +257,20 @@
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -666,6 +680,22 @@
         "moduleName": "RBKLiveness",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -989,6 +1019,22 @@
         "declAttributes": [
           "AccessControl",
           "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -1124,6 +1170,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1367,6 +1427,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1688,6 +1762,22 @@
         "declAttributes": [
           "AccessControl",
           "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -1835,6 +1925,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2335,6 +2439,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -2403,8 +2521,9 @@
             "moduleName": "RBKLiveness",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership",
               "AccessControl",
               "ObjC"
@@ -2514,8 +2633,9 @@
             "moduleName": "RBKLiveness",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership",
               "AccessControl",
               "ObjC"
@@ -2626,8 +2746,9 @@
             "moduleName": "RBKLiveness",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC"
             ],
@@ -2720,8 +2841,9 @@
             "moduleName": "RBKLiveness",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC"
             ],
@@ -2822,8 +2944,9 @@
             "moduleName": "RBKLiveness",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl",
               "ObjC"
             ],
@@ -2940,8 +3063,9 @@
             "moduleName": "RBKLiveness",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -3050,6 +3174,7 @@
             "moduleName": "RBKLiveness",
             "objc_name": "initWithIsRecordingEnabled:",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -3076,6 +3201,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -3102,6 +3228,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -3134,6 +3261,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -3166,6 +3294,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -3222,6 +3351,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -3245,6 +3375,7 @@
             "moduleName": "RBKLiveness",
             "declAttributes": [
               "Dynamic",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -3322,6 +3453,7 @@
             "moduleName": "RBKLiveness",
             "declAttributes": [
               "Dynamic",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -3399,6 +3531,7 @@
             "moduleName": "RBKLiveness",
             "declAttributes": [
               "Dynamic",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -3476,6 +3609,7 @@
             "moduleName": "RBKLiveness",
             "declAttributes": [
               "Dynamic",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -3553,6 +3687,7 @@
             "moduleName": "RBKLiveness",
             "declAttributes": [
               "Dynamic",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "ObjC"
@@ -3618,6 +3753,7 @@
         "mangledName": "$s11RBKLiveness0A14ViewControllerC",
         "moduleName": "RBKLiveness",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjC"
@@ -3630,6 +3766,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -3728,294 +3878,413 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/ymurat\/Projects\/Frameworks\/Liveness\/RBKLiveness\/Camera\/RBKLivenessAlert.swift",
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessAlert.swift",
       "kind": "IntegerLiteral",
       "offset": 176,
       "length": 10,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/ymurat\/Projects\/Frameworks\/Liveness\/RBKLiveness\/Camera\/RBKLivenessAlert.swift",
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessAlert.swift",
       "kind": "IntegerLiteral",
       "offset": 196,
       "length": 20,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/ymurat\/Projects\/Frameworks\/Liveness\/RBKLiveness\/Camera\/RBKLivenessAlert.swift",
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessAlert.swift",
       "kind": "IntegerLiteral",
       "offset": 226,
       "length": 15,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/ymurat\/Projects\/Frameworks\/Liveness\/RBKLiveness\/Camera\/RBKLivenessAlert.swift",
-      "kind": "IntegerLiteral",
-      "offset": 176,
-      "length": 10,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/ymurat\/Projects\/Frameworks\/Liveness\/RBKLiveness\/Camera\/RBKLivenessAlert.swift",
-      "kind": "IntegerLiteral",
-      "offset": 196,
-      "length": 20,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/ymurat\/Projects\/Frameworks\/Liveness\/RBKLiveness\/Camera\/RBKLivenessAlert.swift",
-      "kind": "IntegerLiteral",
-      "offset": 226,
-      "length": 15,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/ymurat\/Projects\/Frameworks\/Liveness\/RBKLiveness\/Camera\/RBKCameraController.swift",
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKCameraController.swift",
       "kind": "BooleanLiteral",
       "offset": 332,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/ymurat\/Projects\/Frameworks\/Liveness\/RBKLiveness\/Camera\/RBKCameraController.swift",
-      "kind": "StringLiteral",
-      "offset": 162,
-      "length": 19,
-      "value": "\"RBKLiveness.RBKCameraController\""
-    },
-    {
-      "filePath": "\/Users\/ymurat\/Projects\/Frameworks\/Liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
       "kind": "BooleanLiteral",
       "offset": 456,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/ymurat\/Projects\/Frameworks\/Liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
       "kind": "IntegerLiteral",
       "offset": 572,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/ymurat\/Projects\/Frameworks\/Liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
       "kind": "IntegerLiteral",
       "offset": 603,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/ymurat\/Projects\/Frameworks\/Liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
       "kind": "IntegerLiteral",
       "offset": 635,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/ymurat\/Projects\/Frameworks\/Liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
       "kind": "BooleanLiteral",
       "offset": 744,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ymurat\/Projects\/Frameworks\/Liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
       "kind": "Dictionary",
       "offset": 811,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/ymurat\/Projects\/Frameworks\/Liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
       "kind": "BooleanLiteral",
       "offset": 852,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ymurat\/Projects\/Frameworks\/Liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
       "kind": "BooleanLiteral",
       "offset": 1191,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ymurat\/Projects\/Frameworks\/Liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
-      "kind": "StringLiteral",
-      "offset": 319,
-      "length": 27,
-      "value": "\"RBKLiveness.RBKLivenessCameraController\""
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10267,
+      "length": 5,
+      "value": "false"
     },
     {
-      "filePath": "\/Users\/ymurat\/Projects\/Frameworks\/Liveness\/RBKLiveness\/CameraFocusFrameView.swift",
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10955,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
+      "kind": "FloatLiteral",
+      "offset": 11217,
+      "length": 4,
+      "value": "0.75"
+    },
+    {
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11498,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11633,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11721,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11833,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12096,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12219,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12321,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12372,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
+      "kind": "FloatLiteral",
+      "offset": 12425,
+      "length": 3,
+      "value": "0.9"
+    },
+    {
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
+      "kind": "FloatLiteral",
+      "offset": 12481,
+      "length": 3,
+      "value": "0.9"
+    },
+    {
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12791,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12852,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13028,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13245,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13290,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13297,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13328,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13379,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13386,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13417,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13494,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13637,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13670,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13745,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13906,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13939,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14014,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessCameraController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14448,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/CameraFocusFrameView.swift",
       "kind": "IntegerLiteral",
       "offset": 247,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/ymurat\/Projects\/Frameworks\/Liveness\/RBKLiveness\/CameraFocusFrameView.swift",
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/CameraFocusFrameView.swift",
       "kind": "IntegerLiteral",
       "offset": 324,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/ymurat\/Projects\/Frameworks\/Liveness\/RBKLiveness\/CameraFocusFrameView.swift",
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/CameraFocusFrameView.swift",
       "kind": "IntegerLiteral",
       "offset": 398,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/ymurat\/Projects\/Frameworks\/Liveness\/RBKLiveness\/Utils\/UIColor+extension.swift",
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Utils\/UIColor+extension.swift",
       "kind": "IntegerLiteral",
       "offset": 256,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/ymurat\/Projects\/Frameworks\/Liveness\/RBKLiveness\/Camera\/RBKLivenessManager.swift",
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessManager.swift",
       "kind": "FloatLiteral",
       "offset": 288,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/ymurat\/Projects\/Frameworks\/Liveness\/RBKLiveness\/RBKLivenessResult.swift",
-      "kind": "StringLiteral",
-      "offset": 129,
-      "length": 17,
-      "value": "\"RBKLiveness.RBKLivenessResult\""
-    },
-    {
-      "filePath": "\/Users\/ymurat\/Projects\/Frameworks\/Liveness\/RBKLiveness\/Utils\/RBKLivenessApplication.swift",
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Utils\/RBKLivenessApplication.swift",
       "kind": "BooleanLiteral",
       "offset": 148,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ymurat\/Projects\/Frameworks\/Liveness\/RBKLiveness\/Camera\/RBKLivenessAction.swift",
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessAction.swift",
       "kind": "IntegerLiteral",
       "offset": 171,
       "length": 8,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/ymurat\/Projects\/Frameworks\/Liveness\/RBKLiveness\/Camera\/RBKLivenessAction.swift",
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessAction.swift",
       "kind": "IntegerLiteral",
       "offset": 189,
       "length": 9,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/ymurat\/Projects\/Frameworks\/Liveness\/RBKLiveness\/Camera\/RBKLivenessAction.swift",
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessAction.swift",
       "kind": "IntegerLiteral",
       "offset": 208,
       "length": 8,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/ymurat\/Projects\/Frameworks\/Liveness\/RBKLiveness\/Camera\/RBKLivenessAction.swift",
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessAction.swift",
       "kind": "IntegerLiteral",
       "offset": 226,
       "length": 9,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/ymurat\/Projects\/Frameworks\/Liveness\/RBKLiveness\/Camera\/RBKLivenessAction.swift",
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessAction.swift",
       "kind": "IntegerLiteral",
       "offset": 245,
       "length": 5,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/ymurat\/Projects\/Frameworks\/Liveness\/RBKLiveness\/Camera\/RBKLivenessAction.swift",
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessAction.swift",
       "kind": "IntegerLiteral",
       "offset": 260,
       "length": 9,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/ymurat\/Projects\/Frameworks\/Liveness\/RBKLiveness\/Camera\/RBKLivenessAction.swift",
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/Camera\/RBKLivenessAction.swift",
       "kind": "IntegerLiteral",
       "offset": 279,
       "length": 7,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/ymurat\/Projects\/Frameworks\/Liveness\/RBKLiveness\/Camera\/RBKLivenessAction.swift",
-      "kind": "IntegerLiteral",
-      "offset": 171,
-      "length": 8,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/ymurat\/Projects\/Frameworks\/Liveness\/RBKLiveness\/Camera\/RBKLivenessAction.swift",
-      "kind": "IntegerLiteral",
-      "offset": 189,
-      "length": 9,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/ymurat\/Projects\/Frameworks\/Liveness\/RBKLiveness\/Camera\/RBKLivenessAction.swift",
-      "kind": "IntegerLiteral",
-      "offset": 208,
-      "length": 8,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/ymurat\/Projects\/Frameworks\/Liveness\/RBKLiveness\/Camera\/RBKLivenessAction.swift",
-      "kind": "IntegerLiteral",
-      "offset": 226,
-      "length": 9,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/ymurat\/Projects\/Frameworks\/Liveness\/RBKLiveness\/Camera\/RBKLivenessAction.swift",
-      "kind": "IntegerLiteral",
-      "offset": 245,
-      "length": 5,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/ymurat\/Projects\/Frameworks\/Liveness\/RBKLiveness\/Camera\/RBKLivenessAction.swift",
-      "kind": "IntegerLiteral",
-      "offset": 260,
-      "length": 9,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/ymurat\/Projects\/Frameworks\/Liveness\/RBKLiveness\/Camera\/RBKLivenessAction.swift",
-      "kind": "IntegerLiteral",
-      "offset": 279,
-      "length": 7,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/ymurat\/Projects\/Frameworks\/Liveness\/RBKLiveness\/RBKLivenessViewController.swift",
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/RBKLivenessViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 867,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ymurat\/Projects\/Frameworks\/Liveness\/RBKLiveness\/RBKLivenessViewController.swift",
+      "filePath": "\/Users\/rbkuser\/builds\/rgQJYnvq-\/0\/ios\/liveness\/RBKLiveness\/RBKLivenessViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1152,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ymurat\/Projects\/Frameworks\/Liveness\/RBKLiveness\/RBKLivenessViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 200,
-      "length": 25,
-      "value": "\"RBKLiveness.RBKLivenessViewController\""
-    },
-    {
-      "filePath": "\/Users\/ymurat\/Library\/Developer\/Xcode\/DerivedData\/RBKLiveness-flojszbiqkyyxtbhooprtbkffgdt\/Build\/Intermediates.noindex\/DependentBuilds\/RBKLiveness.build\/Release STATIC_LIB-iphoneos\/RBKLiveness.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/rbkuser\/Library\/Developer\/Xcode\/DerivedData\/RBKLiveness-epxxjjkpqzmadabricostxgbvtak\/Build\/Intermediates.noindex\/DependentBuilds\/RBKLiveness.build\/Release STATIC_LIB-iphoneos\/RBKLiveness.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 739,
       "length": 15,
