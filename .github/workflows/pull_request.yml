@@ -1,0 +1,19 @@
+name: Pull request
+
+on:
+  pull_request:
+    types: [opened, edited, reopened, synchronize]
+    branches:
+      - main
+    paths-ignore:
+      - '.github/**'
+
+jobs:
+  check_title:
+    name: Check title
+    runs-on: ubuntu
+    steps:
+      - uses: Slashgear/action-check-pr-title@v4.3.0
+        with:
+          regexp: '(patch|minor|major): +.+$'
+          helpMessage: 'Your PR title does not match the required format. It should start with "patch:", "minor:", or "major:" followed by the description.'
